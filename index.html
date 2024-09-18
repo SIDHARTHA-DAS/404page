@@ -1,43 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Page Not Found</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #262727;
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    h1 {
-      font-size: 5rem;
-      margin: 0;
-    }
-    p {
-      font-size: 1.5rem;
-      color: #666;
-    }
-    a {
-      text-decoration: none;
-      color: #007bff;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h1>404</h1>
-  <p>Oops! The page you're looking for doesn't exist.</p>
-  <a href="/">Go back to the homepage</a>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>404Page</title>
+  </head>
+  <body>
+    <h1>404</h1>
+    <div class="cloak__wrapper">
+      <div class="cloak__container">
+        <div class="cloak"></div>
+      </div>
+    </div>
+    <div class="info">
+      <h2>We can't find that page</h2>
+      <p>
+        We're fairly sure that page used to be here, but seems to have gone
+        missing. We do apologise on it's behalf.
+      </p>
+      <a href="https://sidharthdas.vercel.app/" target="_blank" rel="noreferrer noopener"
+        >Home</a
+      >
+    </div>
+  </body>
 </html>
